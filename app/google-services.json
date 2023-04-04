@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517550754826",
+    "firebase_url": "https://relaxmusic-b0b8e.firebaseio.com",
+    "project_id": "relaxmusic-b0b8e",
+    "storage_bucket": "relaxmusic-b0b8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517550754826:android:805258201b55dec0",
+        "android_client_info": {
+          "package_name": "com.songs.relaxmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517550754826-sbhpjoj0nf83jmoi3hgjcubo4c7oe8fm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.songs.relaxmusic",
+            "certificate_hash": "c588e0e784a756bd16a09685cd7b1dced31d1952"
+          }
+        },
+        {
+          "client_id": "517550754826-diq2mejt287d1467qftkd7cpqaheqtt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfRWC5I7ZkHHO2TXfABt7xOxHv_MvdH04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517550754826-diq2mejt287d1467qftkd7cpqaheqtt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

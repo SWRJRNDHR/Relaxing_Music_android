@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/workoutback1"
+    >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="#ffffff" />
+
+
+    <ListView
+        android:id="@+id/lvSongs"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+
+        android:id="@+id/play"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+
+
+        android:background="@drawable/startbutton"
+        android:gravity="center"
+        android:text="START"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+
+        android:layout_marginBottom="56dp"
+
+        android:background="@drawable/pause8"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/pause"
+        android:layout_toStartOf="@+id/pause"
+        android:background="@drawable/back" />
+
+
+</RelativeLayout>
